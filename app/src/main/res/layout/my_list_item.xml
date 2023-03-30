@@ -9,13 +9,13 @@
         android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="222dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="sans-serif"
         android:text="TextView"
-        android:textSize ="32sp"
-        android:textAlignment="center"
-        android:fontFamilt= "sans-serif"
         android:textColor="@color/purple_700"
+        android:textSize="32sp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

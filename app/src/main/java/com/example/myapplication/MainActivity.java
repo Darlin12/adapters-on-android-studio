@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
         listview = findViewById(R.id.listview);
 
         //3- Adapter
-        ArrayAdapter adapter= new ArrayAdapter(this, android.R.layout.simple_list_item_1, worldCup22);
+        ArrayAdapter adapter= new ArrayAdapter(this, R.layout.my_list_item,R.id.textView, worldCup22);
 
         listview.setAdapter(adapter);
     }
